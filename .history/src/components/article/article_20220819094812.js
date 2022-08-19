@@ -144,7 +144,7 @@ function articleMaker(artObj){
   
  
 
-  span.addEventListener("click", () =>{
+  expandButton.addEventListener("click", () =>{
       article.classList.toggle("article-open");
   })
 
